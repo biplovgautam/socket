@@ -3,7 +3,7 @@ import socket
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 HOST = "127.0.0.1"
-PORT = 5000
+PORT = 5002
 
 client_socket.connect((HOST, PORT))
 
